@@ -1,0 +1,23 @@
+.place__website {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    max-width: 456px;
+    min-height: 46px;
+    align-self: flex-end;
+    margin: 0 0 48px 0;
+}
+
+@media screen and (max-width: 500px) {
+    .place__website {
+        max-width: 460px;
+        margin: 32px 0 32px 16px;
+        order: -2;
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        max-width: 288px;
+    }
+}

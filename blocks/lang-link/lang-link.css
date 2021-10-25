@@ -1,0 +1,15 @@
+.lang-link {
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 320px) {
+    .lang-link {
+        line-height: 20px;
+        font-size: 18px;
+    }
+}

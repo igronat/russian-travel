@@ -1,0 +1,22 @@
+.footer__list {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    white-space: nowrap;
+
+    
+}
+
+@media screen and (max-width: 550px) {
+    .footer__list {
+       margin-bottom: 30px;
+    
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__list {
+       margin-bottom: 48px;
+    
+    }
+}
