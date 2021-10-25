@@ -1,22 +1,24 @@
 .footer__list {
     padding: 0;
-    list-style: none;
     margin: 0;
     white-space: nowrap;
-
-    
 }
 
 @media screen and (max-width: 550px) {
     .footer__list {
-       margin-bottom: 30px;
-    
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer__list {
+        display: flex;
+        flex-direction: column;
     }
 }
 
 @media screen and (max-width: 320px) {
     .footer__list {
-       margin-bottom: 48px;
-    
+        margin-bottom: 48px;
     }
 }
