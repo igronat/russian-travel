@@ -1,4 +1,4 @@
-.footer__list_link {
+.footer__link {
     display: inline;
     font-style: normal;
     font-weight: normal;
@@ -9,19 +9,19 @@
     margin-right: 18px;
 }
 
-.footer__list_link:last-of-type {
+.footer__link:last-of-type {
     margin-right: 0;
 
 }
 
-.footer__list_link:hover {
+.footer__link:hover {
     opacity: 0.8;
     transition: opacity 1s ease;
 
 }
 
 @media screen and (max-width: 510px) {
-    .footer__list_link {
+    .footer__link {
         display: block;
         margin: 0;
         font-size: 20px;
@@ -30,7 +30,7 @@
         
         
     }
-    .footer__list_link:last-of-type {
+    .footer__link:last-of-type {
         margin-bottom: 0;
     
     }
@@ -38,7 +38,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .footer__list_link {
+    .footer__link {
         font-size: 24px;
         line-height: 24px;
         margin-bottom: 32px;
