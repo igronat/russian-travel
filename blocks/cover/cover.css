@@ -2,13 +2,12 @@
     background-image: url("../../images/cover-trains.jpg");
     width: 100vw;
     height: 62.5vw;
+    display: flex;
     background-size: cover;
     background-position: center;
     position: relative;
     box-sizing: border-box;
     max-width: 1184px;
-    color: #FFFFFF;
-    z-index: 3;
     margin-top: 92px;
     margin-right: 48px;
     margin-left: 48px;
