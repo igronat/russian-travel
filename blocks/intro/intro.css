@@ -19,6 +19,7 @@
     .intro {
         max-width: 720px;
         margin-left: 24px;
+        margin-right: 24px;
         margin-top: 88px;
     }
 }
@@ -27,6 +28,7 @@
     .intro {
         max-width: 288px;
         margin-left: 16px;
+        margin-right: 16px;
         margin-top: 64px;
     }
 }

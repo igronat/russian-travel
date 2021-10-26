@@ -6,7 +6,7 @@
     margin: 0 0 48px 0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .place__website {
         max-width: 460px;
         margin: 32px 0 32px 16px;
