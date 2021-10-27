@@ -8,6 +8,7 @@
     position: relative;
     box-sizing: border-box;
     max-width: 1184px;
+    max-height: 740px;
     margin-top: 92px;
     margin-right: 48px;
     margin-left: 48px;
@@ -29,7 +30,7 @@
     transition: opacity 1s ease;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover {
         margin-right: 0;
         margin-left: 0;
@@ -37,15 +38,14 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover {
         margin-top: 90px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover {
         margin-top: 66px;
-        max-width: 320px;
     }
 }

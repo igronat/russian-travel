@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .lang-link {
         line-height: 20px;
         font-size: 18px;

@@ -4,7 +4,7 @@
     white-space: nowrap;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 767px) {
     .footer__list {
         margin-bottom: 30px;
         display: flex;
@@ -12,7 +12,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .footer__list {
         margin-bottom: 48px;
     }
