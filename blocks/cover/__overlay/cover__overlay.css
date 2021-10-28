@@ -1,8 +1,7 @@
-.cover__overlay {
-    opacity: 0.8;
-    width: 100%;
-    min-height: 100%;
-    display: block;
-    color: #FFFFFF;
-    text-decoration: none;
-}
+    .cover__overlay {
+        width: 100%;
+        min-height: 100%;
+        display: block;
+        color: #FFFFFF;
+        text-decoration: none;
+    }

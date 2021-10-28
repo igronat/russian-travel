@@ -1,14 +1,20 @@
 .lang-link {
-    line-height: 28px;
-    font-size: 24px;
-    font-weight: normal;
-    color: #FFFFFF;
-    text-decoration: none;
+    margin: 0 18px 0 0;
+}
+
+.lang-link:last-of-type {
+    margin: 0;
 }
 
 @media screen and (max-width: 767px) {
     .lang-link {
         line-height: 20px;
         font-size: 18px;
+        width: 22px;
     }
+}
+
+.lang-link:hover {
+    opacity: .8;
+    transition: opacity 1s ease;
 }
