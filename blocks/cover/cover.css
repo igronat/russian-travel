@@ -9,8 +9,8 @@
     box-sizing: border-box;
     max-width: 1184px;
     max-height: 740px;
+    margin: 0 auto;
     margin-top: 92px;
-    margin-right: 48px;
 }
 
 .cover::before {
